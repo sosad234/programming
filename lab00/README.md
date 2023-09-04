@@ -35,6 +35,11 @@ Prog labs
 
 ### 1.Создайте репозиторий для дисциплины на GitHub
 Ссылка на репрозиторий: https://github.com/sosad234/programming
+### 2.Склонируйте его себе на ПК.
+```shell
+git clone https://github.com/sosad234/programming.git
+```
+
 
 ### 3.Напишите свою первую программу
 ```c
@@ -55,6 +60,15 @@ int main()
 ![Alt text](image-2.png)
 ### Объектные файлы 
 ![Alt text](image-4.png)
-#### Список используемых источников
+### 7.Сделайте коммит и пуш 
+![Alt text](image-3.png) 
+![Alt text](image-5.png) 
+### 8.Добавьте для себя в отчёт шпаргалку по работе с git. 
+``` 
+git add . 
+git commit -m"wap lab00"
+git push 
+```
+### Список используемых источников
 * https://github.com/still-coding/report_demo/blob/main/README.md 
 * https://doka.guide/tools/markdown/
