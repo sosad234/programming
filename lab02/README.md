@@ -21,12 +21,10 @@ lab №2
 ## Этапы работы
  ## Вариант - 5
  
- $$f(x) = 
- 
- \begin{cases}
- 
-  2^{x}- 2 + x^{2}, & \quad 0 \leq x \leq 1,5; \\ 
- 
+$$
+f(x) = 
+\begin{cases}
+2^{x}- 2 + x^{2}, & \quad 0 \leq x \leq 1,5; \\ 
 \sqrt{x}e^{-x^{2}}, & \quad 1,5 < x \leq 3.
 \end{cases}
  $$
