@@ -19,7 +19,9 @@ lab №3
 
 
 ### 2. Код
-```с
+
+```c
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -100,7 +102,9 @@ int main()
 
     return 0;
 }
+
 ```
+
 ### 3. Результаты
 ![Alt text](image.png)
 
