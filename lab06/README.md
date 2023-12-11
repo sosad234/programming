@@ -20,7 +20,8 @@
 ![Alt text](image.png)
 
 ### 2. Код
-```
+```py
+
 # 1 ЗАДАНИЕ
 
 import itertools
