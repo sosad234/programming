@@ -14,7 +14,8 @@
 
 ## Вариант 5
 
-![Image text](задание.png)
+![image](https://github.com/sosad234/programming/assets/144006168/4b3db621-0a44-4f29-b19d-fe2f4c74a278)
+
 
 ## Ход работы
 
