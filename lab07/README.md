@@ -12,7 +12,8 @@
             Ссылки на используемые материалы
 
 # Вариант №5
-![Image text](Задание.png)
+![image](https://github.com/sosad234/programming/assets/144006168/ac002e69-8fcd-4905-80ba-af6b6594f33e)
+
 
 # Ход работы
 # Программное решение 1
