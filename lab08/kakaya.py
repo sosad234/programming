@@ -9,11 +9,15 @@ def error_handler(func):
 
 
 @error_handler
-def func(arg1, arg2):
-    if (arg1 < 0  or arg1 > 100) or (arg2 < 0  or arg2 > 100):
-        raise ValueError("Arguments are out of range")
-    else:
-        print("Arguments are with in renge")
-func(50,75)
-func(150,75)
+def inner_func(min, max):
+    def A(value):
+        if min <= value <= max:
+            print("Arguments are out of range")
+        else:
+            print("Arguments are with in renge")
+    
+    return A
+A = inner_func(0,20)
+A(30)
+A('qwert')
 
