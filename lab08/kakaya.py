@@ -9,15 +9,18 @@ def error_handler(func):
 
 
 @error_handler
-def inner_func(min, max):
-    def A(value):
-        if min <= value <= max:
-            print("Arguments are out of range")
-        else:
-            print("Arguments are with in renge")
-    
-    return A
-A = inner_func(0,20)
-A(30)
-A('qwert')
+def check_range(min_value, max_value):
+    def closure(value):
+        try:
+            num_value = float(value)  # Преобразуем введенное значение в число
+            return min_value <= num_value <= max_value
+        except ValueError:
+            return False  # Если произошла ошибка при преобразовании в число, возвращаем False
+    return closure
+
+# Пример использования
+check_age = check_range(18, 100)
+print(check_age(25))  # True
+print(check_age('abc'))  # False
+
 
