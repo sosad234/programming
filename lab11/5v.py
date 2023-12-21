@@ -57,6 +57,6 @@ button_clear = ttk.Button(root, text="Очистить", command=clear_expenses)
 button_clear.grid(row=2, column=2, padx=5, pady=5, sticky=tk.W)
 
 listbox_expenses = tk.Listbox(root)
-listbox_expenses.grid(row=3, column=0, columnspan=2, padx=5, pady=5, sticky=tk.W+tk.E)
+listbox_expenses.grid(row=6, column=0, columnspan=4, padx=15, pady=7, sticky=tk.W+tk.E)
 
 root.mainloop()
