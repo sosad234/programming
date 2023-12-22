@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
 import datetime
+import matplotlib.pyplot as plt
 
 def add_expense():
     expense = entry_expense.get()
